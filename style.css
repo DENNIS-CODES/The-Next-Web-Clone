@@ -47,7 +47,7 @@ table {
 body {
     margin: 0;
     padding: 0;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-family: Avalon,sans-serif;
     font-size: 10px;
 }
 
@@ -245,3 +245,335 @@ h2 {
     vertical-align: top;
     margin-bottom: 18px;
 }
+
+.news img{
+    width: 100%;
+}
+
+/* FUNDING */
+
+.funding{
+    width: auto;
+    margin: 30px 0;
+    background-color: #ffffff;
+    padding: 0;
+}
+
+.funding .wrapper{
+    display: block;
+    max-width: 1150px;
+    width: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.funding .title{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.funding .title h2{
+    display: inline;
+}
+
+.funding .title .menu{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+.funding .title .menu a{
+    padding: 0 10px;
+    font-size: 16px;
+    color: #ff4422;
+    text-decoration: none;
+}
+
+.funding .title .menu a:nth-child(2){
+    border-left: 1px solid #ff4422;
+    border-right: 1px solid #ff4422;
+}
+
+.funding .fund{
+    position: relative;
+    display: inline-block;
+    width: calc(99% /4);
+    vertical-align: top;
+    background-color: #fff4f2;
+    border: 10px solid white;
+}
+
+.funding img{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 10;
+}
+
+.funding .company{
+    width: 100%;
+    background-color: #ff4422;
+    height: 42px;
+}
+
+.funding .company a{
+    font-size: 15px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 0 14px 84px;
+}
+
+.funding .price{
+    width: 100%;
+    background-color: #ffb9ad;
+    height: 52px;
+}
+
+.funding .price a{
+    font-size: 16px;
+    color:#000000;
+    display: block;
+    text-decoration: none;
+    padding: 12px 0 0 84px;
+    font-weight: bold;
+}
+
+.funding .price a:nth-child(2){
+    font-size: 12px;
+    color:#424242;
+    padding: 0 0 0 84px;
+    font-weight: normal;
+}
+
+.funding .info{
+    display: block;
+    font-size: 12px;
+    color:#424242;
+    padding: 18px 10px 0px 10px;
+    text-decoration: none;
+    line-height: 15px;
+}
+
+.funding .last{
+    padding-bottom: 20px;
+}
+
+.funding .line{
+    width: 100%;
+    padding-top: 16px;
+    border-bottom: 1px solid #ff4422;
+}
+
+/* MOST SECTION */
+.most{
+    width: auto;
+    margin: 10px 0;
+    background-color: #ffffff;
+    padding: 0;
+}
+
+.most .wrapper{
+    display: block;
+    max-width: 1150px;
+    width: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.most .part{
+    display: inline-block;
+    width: calc(99% /3);
+    padding: 10px;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.most .medium-img{
+    width: 100%;
+}
+
+.most h2{
+    margin: 10px 0 14px 0;
+}
+
+.most .subarticle{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background-color: #fce3df;
+}
+
+.most .subarticle img{
+    float: right;
+    padding-left: 10px;
+}
+
+.most .subarticle span{
+    display: block;
+    font-size: 12px;
+    color: #FF4422;
+    text-transform: uppercase;
+    padding: 12px;
+    padding-bottom: 0;
+}
+
+.most .subarticle a{
+    display: block;
+    font-size: 14px;
+    color: #FF4422;
+    font-weight: bold;
+    padding: 12px;
+    padding-top: 6px;
+    text-decoration: none;
+}
+
+.most ul{
+    margin-left: 15px;
+}
+
+.most ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #FF4422; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -10px; /* Also needed for space (tweak if needed) */
+  }
+
+.most ul li{
+    border-bottom: 1px solid #d6d6d6; 
+    padding: 14px 0;
+  }
+
+.most ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 12px;
+    color: #646464;
+}
+
+/* MOST SECTION */
+.deals{
+    width: auto;
+    margin: 10px 0;
+    background-color: #ffffff;
+    padding: 0;
+}
+
+.deals .wrapper{
+    display: block;
+    max-width: 1150px;
+    width: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.deals .title{
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 25px;
+}
+
+.deals .title h2{
+    display: inline;
+}
+
+.deals .title .latest{
+    text-decoration: none;
+}
+
+.deals .title .all{
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    font-size: 16px;
+    color: #ff4422;
+    text-decoration: none;
+}
+
+.deals .deal{
+    display: inline-block;
+    width: calc(99% /4);
+    padding: 10px;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+
+.deal img{
+    width: 100%;
+}
+
+.deal .product{
+    display: block;
+    font-size: 16px;
+    color: #131313;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.deal p{
+    font-size: 19px;
+    color: #3a3a3a;
+}
+
+.deal p span{
+    font-size: 12px;
+    color: #9b9b9b;
+    text-decoration: line-through;
+}
+
+/* SOCIAL SECTION */
+.social{
+    width: auto;
+    margin: 50px auto 0 auto;
+    background-color: #131313;
+    padding: 0;
+    text-align: center;
+}
+
+.social .icons{
+    padding: 45px 0 20px 0;
+}
+
+.social .bar{
+    padding: 20px 0 40px 0;
+}
+
+.social .icons li{
+    display: inline-block;
+}
+
+.social .bar li{
+    display: inline-block;
+}
+
+.social .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #333333;
+    color: white;
+    margin: 0 6px;
+  }
+
+.social .bar li a{
+    text-decoration: none;
+    color: #AAAAAA;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 0 5px;
+    letter-spacing: -0.8px;
+}
+
