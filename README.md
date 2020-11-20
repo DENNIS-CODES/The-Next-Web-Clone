@@ -15,6 +15,8 @@ Try resizing the viewport on desktop to test the site's responsiveness.
 ## LIVE DEMO
 [CLICK HERE](https://dennis-codes.github.io/The-Next-Web-Clone/)
 
+## CLONED WEBPAGE
+[thenewWeb](https://thenextweb.com/)
 
 ## Author
 
