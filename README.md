@@ -13,7 +13,7 @@ Try resizing the viewport on desktop to test the site's responsiveness.
 - CSS 
 - Font awesome
 ## LIVE DEMO
-[CLICK TO PLAY](https://dennis-codes.github.io/Tic-Tac-Toe/)
+[CLICK HERE](https://dennis-codes.github.io/The-Next-Web-Clone/)
 
 
 ## Author
